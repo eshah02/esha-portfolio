@@ -6,6 +6,7 @@ import InfoCard from "../components/InfoCard";
 import SkillCategory from "../components/SkillCategory";
 import ExperienceCard from "../components/ExperienceCard";
 import { Mail, Github, Linkedin } from "lucide-react";
+import ChatBot from "../components/ChatBot";
 
 export default function Portfolio() {
   const { theme, toggleTheme, mounted } = useTheme();
@@ -405,6 +406,7 @@ export default function Portfolio() {
           </a>
         </div>
       </footer>
+      <ChatBot />
     </main>
   );
 }
